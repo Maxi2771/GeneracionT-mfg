@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./public/css/output.css    ">
+    <title>Star Wars</title>
+</head>
+<body class="overflow-hidden overflow-x-hidden">
+    <!--<header>
+        <nav class="flex justify-center items-center p-4 border-solid border-b-2 border-black">
+            <ul class="flex space-x-5 text-white">
+                <li class="w-32 border-2 border-solid border-black rounded-full text-center text-lg p-2 imperio "><a href="">Imperio</a></li>
+                <li class="w-32 border-2 border-solid border-black rounded-full text-center text-lg p-2 rebelde "><a href="">Rebeldes</a></li>
+            </ul>
+        </nav>
+    </header>-->
+    <main class="flex flex-col w-full min-h-screen overflow-x-hidden overflow-y-hidden">
+        <section id="menu" class="flex flex-row w-full h-screen">
+            <div class="flex flex-col justify-center items-center p-4 w-1/2 h-full border-r-2 border-solid border-black imperio">
+                <a class="bg-black hover:bg-white hover:border-black border-2 border-solid border-white rounded-lg p-4 text-4xl text-white hover:text-black transition-colors duration-300" href="#imperio">Imperio</a>
+            </div>
+            <div class="flex flex-col justify-center items-center p-4 w-1/2 h-full rebelde">
+                <a class="bg-black hover:bg-white hover:border-black border-2 border-solid border-white rounded-lg p-4 text-4xl text-white hover:text-black transition-colors duration-300" href="#rebelde">Rebeldes</a>
+            </div>
+        </section>
+        <section id="imperio" class="w-full flex flex-col items-center p-4 py-10">
+            <div class="flex flex-col items-center p-4 w-1/2">
+                <h1 id="darth-vader" class="p-2 text-3xl font-bold text-red-600">Darth Vader</h1>
+                <img class="w-80 h-80 object-contain border-red-600 border-2 mb-8" src="public/img/darth_vader.jpg" alt="Darth Vader">
+            </div>
+            <h1 class="text-2xl p-6">Tropas y Naves</h1>
+            <div class="flex justify-center items-center space-x-4">
+                <img class="w-80 h-80 object-contain soldado mb-8 p-4 max-md:w-40 max-md:h-40" src="public/img/stormtrooper.png" alt="">
+                <img class="w-80 h-80 object-contain soldado mb-8 p-4 max-md:w-40 max-md:h-40" src="public/img/caminante.png" alt="">
+                <img class="w-80 h-80 object-contain soldado mb-8 p-4 max-md:w-40 max-md:h-40" src="public/img/TIEfighter2-Fathead.png" alt="">
+            </div>
+            <a class="w-64 border-2 border-solid border-black text-center p-2 imperio text-white rounded-3xl" href="#menu">Cambiar de bando</a>
+        </section>
+        <section id="rebelde" class="w-full flex flex-col items-center p-4 py-10 max-md:py-1 max-md:p-0">
+            <div class="flex flex-col items-center p-4 py-24 w-1/2 max-md:py-6">
+                <h1 id="luke-skywalker" class="p-2 text-2xl font-bold text-blue-600">Luke Skywalker</h1>
+                <img class="w-80 h-80 object-contain border-blue-600 border-2" src="public/img/luke_skywalker.jpg" alt="Luke Skywalker">
+            </div>
+            <h1 class="text-2xl p-6 max-md:p-0">Androides y Naves</h1>
+            <div class="grid grid-cols-5 gap-4 justify-items-center items-start p-4 max-md:grid-cols-3 max-md:gap-2">
+                <div class="androides naves">
+                    <img class="w-40 h-40 object-contain border-black border-2 p-4 max-md:w-24 max-md:h-24" src="public/img/r2d2.png" alt="R2D2">
+                    <h1 class="text-xs text-center mt-2">R2D2</h1> </div>
+                
+                <div class="androides naves">
+                    <img class="w-40 h-40 object-contain border-black border-2 p-4 max-md:w-24 max-md:h-24" src="public/img/c3po.png" alt="C3PO">
+                    <h1 class="text-xs text-center mt-2">C3PO</h1>
+                </div>
+                <div class="androides naves">
+                    <img class="w-40 h-40 object-contain border-black border-2 p-4 max-md:w-24 max-md:h-24" src="public/img/bb8.png" alt="BB8">
+                    <h1 class="text-xs text-center mt-2">BB-8</h1>
+                </div>
+                <div class="androides naves">
+                    <img class="w-40 h-40 object-contain border-black border-2 p-4 max-md:w-24 max-md:h-24" src="public/img/x_wing.png" alt="X-Wing">
+                    <h1 class="text-xs text-center mt-2">X-Wing</h1>
+                </div>
+                <div class="androides naves">
+                    <img class="w-40 h-40 object-contain border-black border-2 p-4 max-md:w-24 max-md:h-24" src="public/img/halcon_milenario.png" alt="Halcon Milenario">
+                    <h1 class="text-xs text-center mt-2">Halcón</h1>
+                </div>
+            </div>
+            <a class="w-64 border-2 border-solid border-black text-center p-2 rebelde text-white rounded-3xl" href="#menu">Cambiar de bando</a>
+        </section>
+    </main>
+</body>
+</html>

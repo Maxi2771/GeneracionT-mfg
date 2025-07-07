@@ -1,16 +1,14 @@
 ![Generación T](https://campus.generaciont.org/pluginfile.php/1/theme_degrade/slideshow_image_1/1748712212/GT%201250x400px.jpg)
 
-### 📚 &nbsp;Ejercicios
-&nbsp;Ejercicio que teníamos que hacer un Panchito 🌭\
-&nbsp;https://maxi2771.github.io/GeneracionT-mfg/tp1-panchito/ \
-&nbsp;Ejercicio que tenía como fin el uso de Flex y Grid\
-&nbsp;https://maxi2771.github.io/GeneracionT-mfg/tp2-star-wars/ \
-&nbsp;Ejercicio que tenía como fin el uso de Media Query (Responsive Design)\
-&nbsp;https://maxi2771.github.io/GeneracionT-mfg/tp3-elije-tu-propia-aventura/ \
-&nbsp;Ejercicio para aprender el uso de JavaScript\
-&nbsp;https://maxi2771.github.io/GeneracionT-mfg/tp4-puedo-jubilarme/ \
-
-
+### 📚 **Ejercicios**
+-   **TP1 Panchito 🌭**
+-   **TP2 Star Wars 💫**
+-   **TP3 Elije tu propia aventura ⚔️**
+-   **TP4 Puedo jubilarme 👨🏼‍🦳**
+-   **TP5 FizzBuzz**
+-   **TP6 Coding Challenge 🧑🏻‍💻**
+-   **TP7 Mouse Tracker 🖱️**
+  
 ### &nbsp;Tecnologías usadas:
 <a href="https://skillicons.dev">
   <img src="https://skillicons.dev/icons?i=html,css,js,tailwind&perline=14" />
